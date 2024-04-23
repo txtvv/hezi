@@ -113,8 +113,18 @@
         "ext":"http://nxog.eu.org/m/js/88.js"
     },    
 
-
-    
+//https://gitee.com/dongchenys/liu/raw/master/json/miaobo.json
+    {
+      "key": "秒播影院",
+      "name": "🍓┃秒播┃影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./js/miaobo.json",
+          "jar": "./jar/dongchen.jar"
+    },
 //饭太硬 
     {
       "key": "厂长",
@@ -128,6 +138,32 @@
       "changeable": 1,
       "ext": "https://www.cz233.com/"
     },
+//http://pandown.pro/tvbox/tvbox.json
+    {
+      "key": "AI1",
+      "name": "🧞️AI1┃仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "http://124.222.116.5/macos/seven/api.php/provide/vod/|okhttp/4.9.1|https://jx.kuaizi.cc",
+    "jar": "http://cdn.qiaoji8.com/fix140412.jar;md5;fc0e5aa90d33991dd6d56a6b1ed616aa"
+    },
+    {
+      "key": "AI2",
+      "name": "🧞AI2┃仅搜索",
+      "type": 3,
+      "api": "csp_AI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "ext": "http://124.222.116.5/mb/api.php/provide/vod/|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.33|qiaoji",
+    "jar": "http://cdn.qiaoji8.com/fix140412.jar;md5;fc0e5aa90d33991dd6d56a6b1ed616aa"
+    },
+//饭太硬 
     {
       "key": "bp",
       "name": "❄️┃️白嫖┃影视",
@@ -159,6 +195,54 @@
     "jar": "http://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;5f17d8fe24bbde9e1bd24189ae3cde21"
     },
 /////////////////////////////////////////////////////////////////////
+//肥猫
+    {
+      "key": "新视觉",
+      "name": "🐦┃视觉┃影视",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.80yy3.com/",
+    "jar": "https://cloud.lxweb.cn/f/ePJWIa/PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69"
+    },
+    {
+      "key": "csp_Juqq",
+      "name": "⭕┃剧圈┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Juqq",
+    "jar": "https://cloud.lxweb.cn/f/ePJWIa/PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69"
+    },
+    {
+      "key": "csp_NfApp",
+      "name": "🔷┃南坊┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_NfApp",
+    "jar": "https://cloud.lxweb.cn/f/ePJWIa/PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69"
+    },
+    {
+      "key": "白嫖",
+      "name": "🌅┃白嫖┃影视",
+      "type": 3,
+      "api": "csp_BaiPiao",
+      "playerType": "2",
+    "jar": "https://cloud.lxweb.cn/f/ePJWIa/PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69"
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "👲┃玩偶┃影视②",
+      "api": "csp_Wogg",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt",
+    "jar": "https://cloud.lxweb.cn/f/ePJWIa/PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69"
+    },
 //http://rihou.vip:55/天天开心
     {
     "key":"荐片",
@@ -178,18 +262,6 @@
       "ext": "https://www.xb6v.com",
     "jar": "https://jihulab.com/xiaohutx/meisha/-/raw/main/xh.jar"
     },
- {
-     "key": "csp_Mp4Mov",
-     "name": "🧲Mp4电影",
-     "type": 3,
-     "api": "csp_Mp4Mov",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 1,
-     "playerType":2,
-    "jar": "./jar/XYQF823.jar"
-     
- },
  
  //http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌
     {
@@ -265,18 +337,6 @@
       "ext": "https://gitee.com/dongchenys/liu/raw/master/json/Alist.json"
     },
  
-//https://gitee.com/dongchenys/liu/raw/master/json/miaobo.json
-    {
-      "key": "秒播影院",
-      "name": "🍓┃秒播┃影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./js/miaobo.json",
-          "jar": "./jar/dongchen.jar"
-    },
 //http://meowtv.cn/tv
     {
       "key": "meowtv_nmys",
@@ -438,7 +498,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://tt.iitvba.com/js/相声小品.json"
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/vip/js/相声小品.json"
     },
     {
       "key": "戏 曲",
@@ -447,7 +507,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://tt.iitvba.com/js/戏曲.json"
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/pdscxz/TV/main/vip/js/%E6%88%8F%E6%9B%B2.json"
     },
 
 
@@ -578,47 +638,35 @@
 {"name":"自动解析","type":3,"url":"Demo"},
 {"name":"MeowTV","type":1,"url":"http://jx.meowtv.cn/?url="},
 {"name":"🌎my","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2334&my=fhloqstzDIKLMORTZ9&url=","ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
+
  
     {
-      "name": "西瓜嗅探1",
-      "type": 0,
-      "url": "https://t1.qlplayer.cyou/player/analysis.php?v=",
-      "ext":{"flag":["qq",
-                    "腾讯",
-                    "企鹅",
-                    "IQiYi",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "YouKu",
-                    "优酷",
-                    "sohu",
-                    "SoHu",
-                    "搜狐",
-                    "letv",
-                    "LeShi",
-                    "乐视",
-                    "imgo",
-                    "mgtv",
-                    "MangGuo",
-                    "芒果",
-                    "SLYS4k",
-                    "BYGA",
-                    "luanzi",
-                    "AliS",
-                    "dxzy",
-                    "bilibili",
-                    "QEYSS",
-                    "xigua",
-                    "西瓜视频",
-                    "腾讯视频",
-                    "奇艺视频",
-                    "优酷视频",
-                    "芒果视频",
-                    "乐视视频"
-                    ],"header":{"User-Agent":"Dart/3.0(dart:io)"}}},  
-    
+      "name": "🧞AI解析",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905",
+          "NetFilx"
+        ]
+      }
+    },
     {
       "name": "西瓜嗅探2",
       "type": 0,
@@ -735,5 +783,5 @@
 
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "warningText": "恭喜发财",
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713263749769/fan.txt;md5;c84c36278bd8bc95a63449a128074be0"
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713606500967/fan.txt;md5;5d951f2dbd9e24ce7cc82c59d46f8417"
 }

@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🍅VIP豆瓣排行",
+      "name": "豆瓣排行",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
